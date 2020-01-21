@@ -87,12 +87,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -107,45 +107,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -153,102 +153,109 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 .wrapper {
-	width: 880px;
-	padding: 0px 10;
-	margin: 0px auto;
-	padding-top: 60px;
+    width: auto;
+    padding: 0px 10;
+    margin: 0px auto;
+    padding-top: 60px;
 
 }
 
 .row {
-	padding-top: 6px;
-	padding-bottom: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .links ul {}
 
 .links ul li {
-	display: block;
-	position: relative;
-	float: left;
-	padding-left: 1em;
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 1em;
 }
 
 .navlist li a {
-	color: gray;
-	text-decoration: none;
-	position: relative;
-	display: block;
-	padding: 10px 15px;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
 
 }
 
 .toplogo {
-	float: right;
-	position: relative;
+    float: right;
+    position: relative;
 
 }
 
 
 .div50 {
-	width: 50%;
-	display: block;
-	position: relative;
-	float: left;
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.div502 {
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
 }
 
 
 #home {
-	width: 960px;
-	margin: 0px auto;
+    width: 960px;
+    margin: 0px auto;
 
 }
 
 .topimage {
-	margin: 0 auto;
-	display: block;
+    margin: 0 auto;
+    display: block;
 }
 
 
 .IOD {
-	width: 100%;
-	float: left;
-	text-align: center;
-	display: block;
-	font-size: 72px;
-	margin-top: 75px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+    font-size: 72px;
+    margin-top: 75px;
 }
 
 .blackbutton {
-	margin: 0 auto;
-	display: block;
-	padding: 12px 50px;
-	font-size: 17px;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 50px;
+    font-size: 17px;
 
-	background-color: white;
-	color: black;
-	border: 1px solid black;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .top {
-	margin-top: 25px;
-	margin-bottom: 25px;
-	height: 405px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 405px;
 }
 
 hr {
-	width: 95%;
-	margin-top: 30px;
-	margin-bottom: 25px;
-	display: block;
-	height: 1px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: block;
+    height: 1px;
 }
 
 
@@ -260,39 +267,41 @@ hr {
 #product,
 #vision,
 #services {
-	width: 33%;
-	display: inline;
-	float: left;
-	position: relative;
-	padding-bottom: 17px;
-	padding-top: 17px;
+    width: 33%;
+    display: inline;
+    float: left;
+    position: relative;
+    padding-bottom: 17px;
+    padding-top: 17px;
 }
 
 #features,
 #about {
-	width: 50%;
-	display: block;
-	float: left;
-	position: relative;
-	padding-bottom: 17px;
-	padding-top: 17px;
+    width: 50%;
+    display: block;
+    float: left;
+    position: relative;
+    padding-bottom: 17px;
+    padding-top: 17px;
 }
-.middle-img{
-	margin: 0 auto;
+
+.middle-img {
+    margin: 0 auto;
 }
 
 
 
 
 address {
-	display: block;
-	font-style: italic;
-	line-height: 200%;
+    display: block;
+    font-style: italic;
+    line-height: 200%;
+
 }
 
 footer {
-	text-align: center;
-	max-width: auto;
+    text-align: center;
+    max-width: auto;
 }
 
 
@@ -301,31 +310,122 @@ footer {
 
 /* responsive display */
 
-@media(max-width: 500px){
+@media(max-width: 500px) {
+    #home {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: auto;
+
+
+
+    }
+
+    .links ul li {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        padding-left: 1em;
+        max-width: 100%;
+
+
+    }
+
+    .navlist li {
+        border-bottom: 1px solid black;
+    }
+
+    .navlist {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: stretch;
+
+
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .toplogo {
+
+        position: relative;
+
+        padding-left: 0%;
+    }
+
+    .topimage {
+        margin: 0 auto;
+        display: none;
+        max-width: 0%;
+    }
+
+    .div50 {
+        width: 100%;
+
+
+
+    }
+
+    .div502 {
+        width: 50%;
+        display: none;
+        position: relative;
+        float: left;
+    }
+
+
+
     #product,
     #vision,
     #services {
-       
+
         display: inline;
         width: 100%;
         position: relative;
         padding-bottom: 17px;
         padding-top: 17px;
         max-width: 500px;
+        padding-left: 40px;
     }
-    .middle-img{
+
+    .middle-img {
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 100%;
     }
+
     #features,
-#about {
-	width: 100%;
-	display: inline;
-	float: left;
-	position: relative;
-	padding-bottom: 17px;
-    padding-top: 17px;
-    max-width: 500px;
+    #about {
+        width: 100%;
+        display: inline;
+        float: left;
+        position: relative;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        max-width: 500px;
+        padding-left: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+    footer {
+        text-align: center;
+        padding-left: 60px;
+    }
+
 }
 
 
@@ -334,62 +434,74 @@ footer {
 
 
 
+@media(max-width: 800px) and (min-width: 501px) {
+    .navlist {
+        display: flex;
+        flex-direction: row-reverse;
 
+        justify-content: space-evenly;
 
+        
 
-footer {
-	text-align: center;
-	padding-left: 60px;
-}
+    }
 
-}
-
-
-
-
-
-
-
-@media(max-width: 800px) and (min-width: 501px){
     #home {
         max-width: 100%;
         margin: 0px auto;
-    
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
     }
+
     .links ul li {
-        display: block;
-        position: relative;
-        float: left;
+
+
         padding-left: 1em;
         max-width: 9%;
     }
-    
+
     .wrapper {
-        max-width: 800px;
+        max-width: auto;
         padding: 0 10;
         margin: 0 auto;
         padding-top: 60px;
-    
+
     }
+
     .toplogo {
-        float: left;
-        position: relative;
-        max-width: 80%;
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 100%;
+
+
     }
-    
+
     .div50 {
-        width: 50%;
-        display:block ;
+        width: 100%;
+        display: block;
         justify-content: center;
-        padding-left: 60px;
+
     }
-    
+
+    .div502 {
+        width: 0%;
+        display: none;
+        position: relative;
+        float: right;
+        padding-left:
+    }
+
+
     .topimage {
         margin: 0 auto;
-        display: block;
+        display: none;
         max-width: 0%;
     }
-    
+
     .IOD {
         width: 100%;
         float: left;
@@ -397,52 +509,75 @@ footer {
         display: block;
         font-size: 72px;
         margin-top: 75px;
-        padding-left: 110px;
+        
+
     }
+
     .blackbutton {
         margin: 0 auto;
         display: block;
         padding: 12px 50px;
         font-size: 17px;
-    
+
         background-color: white;
         color: black;
         border: 1px solid black;
         max-width: 100%;
-        float: right;
+        
     }
-    .middle-img{
+
+    .middle-img {
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 100%;
     }
+
     .top {
         margin-top: 25px;
         margin-bottom: 25px;
         height: 405px;
         align-content: center;
         max-width: 100%;
-        
+
     }
+
     .row {
         padding-top: 6px;
         padding-bottom: 6px;
         max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
-    
-#product,
-#vision,
-#services {
-	width: 33%;
-	display: inline;
-	float: left;
-	position: relative;
-	padding-bottom: 17px;
-    padding-top: 17px;
-    
-}
-footer {
-	text-align: center;
-	max-width: 700px;
-}
+
+    #features,
+    #about {
+        width: 100%;
+        display: inline;
+        float: left;
+        position: relative;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        max-width: 500px;
+        padding-left: 40px;
+    }
+
+
+    #product,
+    #vision,
+    #services {
+        width: 100%;
+        display: inline;
+        float: left;
+        position: relative;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        padding-left: 40px;
+
+    }
+
+    footer {
+        text-align: center;
+        max-width: 700px;
+    }
 
 }
