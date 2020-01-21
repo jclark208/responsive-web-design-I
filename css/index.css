@@ -287,6 +287,8 @@ hr {
 
 .middle-img {
     margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -396,7 +398,7 @@ footer {
     }
 
     .middle-img {
-        margin: 0 auto;
+        margin: 4% auto;
         max-width: 100%;
     }
 
@@ -528,7 +530,7 @@ footer {
 
     .middle-img {
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .top {
@@ -545,8 +547,8 @@ footer {
         padding-bottom: 6px;
         max-width: 650px;
         display: flex;
-        flex-direction: column;
-        align-content: center;
+
+        align-content: space-between;
     }
 
     #features,
